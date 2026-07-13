@@ -58,7 +58,7 @@ def llm_structured_retry(
     instructions,
     user_prompt,
     output_type,
-    model="gpt-5.4-mini",
+    model="gemini-3.1-flash-lite",
     max_retries=3,
 ):
     for attempt in range(max_retries):
