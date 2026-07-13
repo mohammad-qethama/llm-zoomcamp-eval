@@ -952,6 +952,7 @@ dependencies = [
     { name = "google-genai" },
     { name = "jupyter" },
     { name = "minsearch" },
+    { name = "pandas" },
     { name = "python-dotenv" },
     { name = "requests" },
 ]
@@ -961,6 +962,7 @@ requires-dist = [
     { name = "google-genai", specifier = ">=2.11.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "minsearch", specifier = ">=0.2.0" },
+    { name = "pandas", specifier = ">=3.0.3" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
     { name = "requests", specifier = ">=2.34.2" },
 ]
